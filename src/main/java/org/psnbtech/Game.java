@@ -131,7 +131,7 @@ public class Game extends JFrame {
 	 * The current score.
 	 */
 	private int score;
-	
+
 	/**
 	 * The number of lives the Player has left.
 	 */
@@ -155,7 +155,7 @@ public class Game extends JFrame {
 	/**
 	 * Create a new instance of the Game.
 	 */
-	private Game() {
+	public Game() {
 		//Initialize the window's basic properties.
 		super("Asteroids");
 		setLayout(new BorderLayout());
@@ -454,7 +454,7 @@ public class Game extends JFrame {
 	/**
 	 * Set the game's variables to their default values.
 	 */
-	private void resetGame() {
+	public void resetGame() {
 		this.score = 0;
 		this.level = 0;
 		this.lives = 3;

@@ -60,4 +60,6 @@ public class Bullet extends Entity {
 		g.drawOval(-1, -1, 2, 2);
 	}
 
+
+
 }
