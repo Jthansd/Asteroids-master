@@ -15,7 +15,7 @@ public class Bullet extends Entity {
 	/**
 	 * The magnitude of the velocity of a Bullet.
 	 */
-	private static final double VELOCITY_MAGNITUDE = 6.75;
+	private static final double VELOCITY_MAGNITUDE = 20;
 	
 	/**
 	 * The maximum number of cycles that a Bullet can exist.
