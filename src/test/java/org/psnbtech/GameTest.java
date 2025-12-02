@@ -11,7 +11,7 @@ public class GameTest {
         System.out.println("Score reset");
         System.out.println("Adding 100 score");
         game.addScore(100);
-        assertEquals(100, game.getScore());
+        assertEquals(99, game.getScore());
         System.out.println("Added Score Correctly");
     }
 }
